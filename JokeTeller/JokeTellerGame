@@ -1,1 +1,69 @@
+# Joke Teller
+# A game by Teresa Tran 
+# Oct 5, 2017
 
+# All jokes were stolen from the internet.
+
+# Double quotes 
+print("How do all the oceans say hello to each other?")
+input()
+print("They wave!")
+print("***HAHAHAHAHAHAHAH***")
+print()
+
+# Single quotes 
+print('What do you call a bear with no teeth?')
+input()
+print('A gummy bear!')
+print('***HARDY HAR HAR!!!***')
+print()
+
+# Escape characters for contractions/apostrophes
+#print('You\'ll laugh at this one, I promise!')
+#print('I\'ll we\'ll that\'s haven\'t.') #not using this; good reference 
+
+# Escape characters for double quotes.
+#print("The farmer said, \"That'll do pig. That'll do.\"") # not using this; good reference 
+
+# Here's another escape character: this one prints what follows on a new line.
+print("Wait, these aren't jokes at all. \nI'm so sorry about that.")
+
+# Two print statements on the same line
+# That's where the keyword parameter "end" comes in.
+print("Hi ", end="")
+print("Aaron!")
+
+print()
+print("What did one wall say to the other wall?", end="")
+input()
+print("\"I'll meet you at the corner!\"")
+print("***HWEEEEEE DOGGY!!!***")
+print()
+
+print('What do you call cheese isn\'t yours?', end='')
+input()
+print('Nacho\tcheese!') # \t is the 'tab' escape character!
+print("***LOLOLOLOLOLOLOLOLLOOLOLOL***")
+print()
+
+print("Where do cows go for entertainment", end="")
+input()
+print("To the moo-vies!")
+print("***HULLABALOOOOOO***")
+print()
+
+print()
+print("What are cows with no legs?")
+print("ground beef")
+
+print("Are you a banana?")
+print("cause I find you a-PEELING")
+
+print()
+print("What goes around the world, but stays in one corner?")
+print("A stamp")
+
+print()
+print("You are the bus driver. First, you pick up ten kids. Then you drop off four.")
+print("After that, you pick up double the amount you dropped off then head to school. What color are the bus driver's eyes?")
+print("Brown! Because you are the bus driver so the answer is the color of your eyes."
